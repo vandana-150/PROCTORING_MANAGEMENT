@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#141e30,#243b55);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    top: -5px;
+    width: 450px;
+    height: 500px;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    background: rgba(0,0,0,0.9);
+    padding: 5px;
+    overflow: hidden;
+    color: #fff;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 16.6px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(to right, #1034ff5b,#06cdff);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+}
+input{
+    float: right;
+    transform:translate(15px,-33px); ;
+}
+
+
+
+.input-group{
+    top: 90px;
+    position: absolute;
+    width: 280px;
+    transition: .8s;
+}
+.input-field{
+    
+    padding: 5px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #1034ff5b,#06cdff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#mid1form{
+    top : 120px;
+    left: 50px;
+}
+#mid1form .submit-btn{
+    width: 65%;
+    transform:translate(30px,20px);
+}
+
+#mid2form{
+    top : 120px;
+    left: -450px;
+}
+#mid2form .submit-btn{
+    width: 65%;
+    transform:translate(30px,20px);
+}
+#sem1form
+{   
+    top :  95px;
+    left: -450px;
+}
+#sem1form .submit-btn{
+    transform:translate(120px,-10px);
+}
+input[type="file"]{
+    display: none;
+}
+.upload label{
+    padding: 10px 10px;
+    width: 50%;
+    cursor: pointer;
+    background: linear-gradient(to right, #1034ff5b,#06cdff);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    transform:translate(100px,-15px);
+}
