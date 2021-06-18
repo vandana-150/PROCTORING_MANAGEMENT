@@ -1,0 +1,202 @@
+ <!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Contact us Page</title>
+    <style>
+        *{
+    margin:0; 
+    padding:0;
+     
+}
+      
+html{    
+    scroll-behavior:smooth;
+}
+.back{
+    background-color:black;
+    height: 60px;
+    position: relative;
+    border-radius: 0px;
+}
+
+.back a{
+    padding: 12px;
+    position:relative;
+    left:40px; 
+    top:20px;
+    background-color: black;
+    color: #03e9f4;
+    text-decoration: none;
+    color: cyan;
+    border-radius: 5px;
+    box-shadow:  0 0 5px #33ffff,
+                 0 0 10px #66ffff;
+}
+.back a:hover{
+    color: cyan;
+  border-radius: 5px;
+  box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}  
+:root{    
+    --navbar-height:59px;
+}
+.navbar{      
+    /* To make all those logo image and the
+    list to be displayed horizontally */
+    display:flex;
+	text-align:right;
+    position:sticky;
+    top:0;
+       
+    /* When we will take our mouse to those 
+    lists or image the cursor will be pointer */
+    cursor: pointer;
+}
+      
+.nav-list{
+      
+    /* It is to display the list in horizontal */
+    display:flex;
+}
+      
+.nav-list li{    
+  
+    /* This will remove the style of bulleted list */  
+    list-style:none;
+    /* This will create a space between the items */    
+    padding:10px 50px;
+}
+      
+.nav-list li a{
+      
+    /* This is to remove the underline of the 
+    text that appears when we use the anchor tag */    
+    text-decoration:none;
+      
+    /* This is to display the color of 
+    those anchor text white */  
+    color:white;
+}
+      
+/* When the user will point their mouse towards 
+any anchor text they will find a different color */      
+.nav-list li a:hover{
+    color:grey;
+}
+      
+
+      
+.background{
+      
+    /* The background image will change whenever
+    we load the page */  
+    background: white;
+      
+    /* This will make the background that have
+    been added will be darken */  
+    background-blend-mode:darken;
+  
+    background-image: url('backgroundproctor.jpg');
+          background-size: cover;
+}
+      
+.firstsection{
+      
+    /* It is to make the height of the 
+    viewport to be 100 */  
+    height:100vh;
+}
+.box-main{
+      
+    /* This is to display the contact us and the 
+    sentences below it to be displayed in flex */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      
+    /* This is to display the text to have
+    a color of white */  
+    color:black;
+    max-width:50%;
+      
+    /* Now we will set the margin to auto */
+    /* This will make all the text to be 
+    displayed at the center of the page */  
+    margin:auto;
+      
+    /* This will make the text to display at
+    the center of the page vertically */  
+    height:80%;
+}
+      
+.firstHalf{    
+    width:75%;
+    display:flex;
+      
+    /* It is to specify the direction of 
+    the flexible items */
+    flex-direction:column;
+    justify-content:center;
+}
+
+.text-big{
+    font-family: 'Piazzolla', serif;
+      
+    /* The text to have a style of bold */
+     font-weight: bold;
+      
+    /* The size of the text to be appearing as
+    bigger to distinguish itself from the text 
+    in the class text-small */  
+    font-size: 41px;
+      
+    /* The text to be aligned at center */  
+    text-align:center;
+}
+      
+.text-small{    
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 18px;
+    text-align:center;
+}
+
+.center
+{
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="back">
+            <a href="dropdown.html" style="font-size: 18px;">HOME</a>
+        </div>
+    <nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big"><b>Contact US</b></p>
+  
+                <p class="text-small">
+                  <b>  Here you will get to know the team 
+                    members of our company</b>
+                </p>
+  
+                <br>
+                  
+                <p class="center"><a href="#Order" 
+                    style="text-decoration:none;color:black;">
+                  <b>  Contact the phone numbers below for any queries 
+                            9876543210
+							8967452301</b></a>
+                </p>
+  
+            </div>
+        </div>
+    </section>
+</body>
+  
+</html>
