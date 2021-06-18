@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="new_aboutus.css">
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   </head>
+   <body>
+      <nav>
+        <div class="logo">
+            <img src="cse.png" height="50" width="50" class="animate__animated animate__heartBeat animate__infinite infinite">
+          </div>
+          <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+          </label>
+          <input type="checkbox" id="btn">
+          <ul>
+             <li><a href="dropdown.html">Home</a></li>
+          </ul>
+      </nav>
+      <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">About US</p>
+  
+                <p class="text-small">
+                     ANITS focuses mainly on the student overall devolopment and guides them accordingly
+                </p>
+  
+                <br>
+                  
+                <p class="center"><a href="#Order" 
+                    style="text-decoration:none;color:white;">
+                   Here you come to know about the details of the student including semester_marks,attendence,and any other notices...
+				   students also should be responsible and input there marks after every semester and follow the notices.
+				   The proctor will maintain your attendence in the website you can check it after the end of every month. </a>
+                </p>
+  
+            </div>
+        </div>
+    </section>
+      <script>
+         $('.icon').click(function(){
+           $('span').toggleClass("cancel");
+         });
+      </script>
+   </body>
+</html>

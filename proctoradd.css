@@ -1,0 +1,46 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #031321;
+  font-family:consolas;
+}
+
+a
+{
+  background: #2196f3;
+  position: relative;
+  display:inline-block;
+  padding: 10px 23px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  outline: none;
+  border-radius: 4px;
+}
+a:nth-child(1)
+{
+    padding: 9px 61px;
+    transform:translate(100px,-90px);
+}
+a:nth-child(2)
+{
+   padding: 9px 33px;
+    transform:translate(-85px,-10px);
+}
+a:hover
+{
+  color: white;
+  background: #2196f3;
+  box-shadow: 0 0 10px white,0 0 40px white,0 0 80px white;
+  transition-delay: 0.0080s;
+}

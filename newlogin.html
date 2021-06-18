@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="newlogin.css">
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+           <img src="cse.png" height="50" width="50" class="animate__animated animate__heartBeat animate__infinite infinite">
+         </div>
+         <label for="btn" class="icon">
+         <span class="fa fa-bars"></span>
+         </label>
+         <input type="checkbox" id="btn">
+         <ul>
+            <li><a href="dropdown.html">Home</a></li>
+            <li>
+               <label for="btn-1" class="show">Login</label>
+               <a href="#">Login</a>
+               <input type="checkbox" id="btn-1">
+               <ul>
+                  <li><a href="login_student.html">student</a></li>
+                  <li><a href="login_proctor.html">Proctor</a></li>
+                  <li><a href="login_coordinator.html">Co-ordinator</a></li>
+               </ul>
+            </li>
+            <li>
+               <label for="btn-2" class="show">About Us</label>
+               <a href="#">About Us</a>
+               <input type="checkbox" id="btn-2">
+            </li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+      <script>
+         $('.icon').click(function(){
+           $('span').toggleClass("cancel");
+         });
+      </script>
+       <div class="login-box">
+        <img src="avatar.png" alt="avatar" class="avatar" width="150px" height="150px">
+        <form action="#">
+            <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="Password" name="" required="">
+                <label>Password</label>
+            </div>
+            <div class="login-form">
+            <a href="coordinator.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            Login
+            </a>
+            <a href="forgot_password.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            ForgotPassword
+            </a>
+        </div>
+        </form>
+    </div>
+   </body>
+</html>
